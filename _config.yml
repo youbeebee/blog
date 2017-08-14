@@ -7,7 +7,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: b-f-m
-google_analytics: UA-88602504-1
+google_analytics: UA-88602504-2
 title: MyBlog
 
 defaults:
@@ -15,7 +15,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Korean CR Project
+      title: Blog by B.F.M.
 
 description: Blog by B.F.M.
 author:
