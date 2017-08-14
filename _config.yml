@@ -1,0 +1,37 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 5 # pagination based on number of posts
+paginate_path: "page:num"
+permalink: /:title
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: b-f-m
+google_analytics: UA-88602504-1
+title: MyBlog
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Korean CR Project
+
+description: Blog by B.F.M.
+author:
+  name: B.F.M.
+  github: youbeebee
+  bio: 'B.F.M.'
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
