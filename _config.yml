@@ -8,20 +8,21 @@ highlighter: rouge
 markdown: kramdown
 disqus: b-f-m
 google_analytics: UA-88602504-2
-title: MyBlog
+title: B.F.M의 블로그
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Blog by B.F.M.
+      title: Blog
 
-description: Blog by B.F.M.
+description: Blog
 author:
   name: B.F.M.
+  email: bfm@example.com
   github: youbeebee
-  bio: 'B.F.M.'
+  bio: 'B.F.M.<br>DCI 공인 MTG Lv.1 Judge '
 
 rss_path: feed.xml
 categories_path: categories.html
@@ -31,6 +32,7 @@ tags_path: tags.html
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
+CR_PATH: http://youbeebee.net
 
 gems:
   - jekyll-paginate

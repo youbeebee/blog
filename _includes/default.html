@@ -52,7 +52,7 @@
 			</a>
 			{% endif %}
 			{% if site.author.email %}
-			<a type="button" class="navbar-toggle nav-link" href="mailto:{{ site.author.email }}">
+			<a type="button" class="btn navbar-toggle nav-link disabled" href="mailto:{{ site.author.email }}">
 				<i class="fa fa-envelope"></i>
 			</a>
 			{% endif %}
@@ -68,7 +68,8 @@
 				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
 				<li><a href="{{ site.BASE_PATH}}/about/">About</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}">Categories</a></li>
-				<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">Tags</a></li>
+                <li class="nav-divider"></li>
+				<li><a href="{{ site.CR_PATH}}">MTG CR</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
