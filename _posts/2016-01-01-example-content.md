@@ -3,10 +3,8 @@ layout: post
 title:  "Example content"
 tagline: by B.F.M.
 categories: [test]
-tags: 
+tags: [test]
 comments: true
-rule_syntax: true
-permalink: /example/
 description: Sample placeholder post.
 ---
 
